@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding:10px 2%;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  color:black;
+  z-index:1;
+}
+.css-jcn4dz-MuiBadge-badge {
+  background-color: green !important;
+}
+.header_text {
+  text-align: center;
+  width: 100% !important;
+}
+.header_heading {
+  display: flex;
+  margin: 0px 160px 10px 10px; /* top | right | bottom | left */
+  font-size: 32px;
+  font-family: "Poppins";
+  font-weight: 650;
+  text-align: center;
+  color: green;
+  opacity: .9;
+  letter-spacing: -1px;
+}
+
+.header_carticon{
+  justify-content: center;
+}
+
+.divpadding{
+  padding:5px 10px;
+  color: rgba(0,0,0,.5);
+  font-weight: 700;
+}
+.divpadding:hover{
+ color:black;
+}
+a{
+  text-decoration: none;
+}
